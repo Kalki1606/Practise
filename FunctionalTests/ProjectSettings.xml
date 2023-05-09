@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<projectSettings>
+  <executionParamters>
+    <windowsApplicationDriverUrl>http://127.0.0.1:4723/</windowsApplicationDriverUrl>
+    <applicationPath>C:\Program Files\EmisHealth\ProScriptConnectClient\ProScriptConnect.Client.exe</applicationPath>
+    <applicationDirectory>C:\Program Files\EmisHealth\ProScriptConnectClient</applicationDirectory>
+    <applicationTopLevelWindow>ProScript Connect Login</applicationTopLevelWindow>
+    <remoteDebuggingPort>8088</remoteDebuggingPort>
+  </executionParamters>
+  <databaseSettings>
+    <username>Admin</username>
+    <password>admin1234</password>
+    <dataBase name="ProScriptConnect">
+      <dataSource>.\Pharmacye14</dataSource>
+      <initialCatalog>ProScriptConnect</initialCatalog>
+      <integratedSecurity>True</integratedSecurity>
+      <connectionTimeout>45</connectionTimeout>
+    </dataBase>
+    <dataBase name="ProScriptConnectSystem">
+      <dataSource>.\Pharmacye14</dataSource>
+      <initialCatalog>ProScriptConnectSystem</initialCatalog>
+      <integratedSecurity>True</integratedSecurity>
+      <connectionTimeout>45</connectionTimeout>
+    </dataBase>
+    <dataBase name="PKBRuntime">
+      <dataSource>.\Pharmacye14</dataSource>
+      <initialCatalog>PKBRuntime</initialCatalog>
+      <integratedSecurity>True</integratedSecurity>
+      <connectionTimeout>45</connectionTimeout>
+    </dataBase>
+    <dataBase name="OKBRuntime">
+      <dataSource>.\Pharmacye14</dataSource>
+      <initialCatalog>OKBRuntime</initialCatalog>
+      <integratedSecurity>True</integratedSecurity>
+      <connectionTimeout>45</connectionTimeout>
+    </dataBase>    
+  </databaseSettings>
+</projectSettings>
